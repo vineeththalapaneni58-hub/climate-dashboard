@@ -572,9 +572,20 @@ def load_dim_city(engine, df):
 def load_fact_forecast(engine, df, city_map):
     """
     Loads daily forecast records into fact_forecast.
-    Skips records that already exist for the same city and date.
-    This implements the incremental loading strategy described above.
+    
+    DATA FRESHNESS STRATEGY:
+    Every time this runs, all existing forecast records are deleted
+    and replaced with fresh data from the API. This ensures the
+    dashboard always shows the most current 7 day forecast.
+    Old data is never kept because weather forecasts change daily
+    and yesterday's forecast is no longer relevant.
     """
+    with Session(engine) as session:
+        # Delete all existing forecast records to ensure fresh data
+        deleted = session.query(FactForecast).delete()
+        session.commit()
+        logger.info(f"  Cleared {deleted} old forecast records from database.")
+
     inserted = 0
     skipped  = 0
 
@@ -583,14 +594,6 @@ def load_fact_forecast(engine, df, city_map):
             city_id = city_map.get(row["city"])
             if city_id is None:
                 logger.warning(f"  city_id not found for {row['city']}, skipping")
-                continue
-
-            existing = session.query(FactForecast).filter_by(
-                city_id=city_id, date=row["date"]
-            ).first()
-
-            if existing:
-                skipped += 1
                 continue
 
             session.add(FactForecast(
@@ -610,7 +613,7 @@ def load_fact_forecast(engine, df, city_map):
 
         session.commit()
 
-    logger.info(f"fact_forecast load complete. Inserted {inserted}, skipped {skipped} duplicates.")
+    logger.info(f"fact_forecast load complete. Inserted {inserted} fresh records.")
     return inserted, skipped
 
 

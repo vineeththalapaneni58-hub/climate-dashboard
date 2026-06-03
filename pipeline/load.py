@@ -2,6 +2,14 @@
 # Handles loading transformed data into SQLite using SQLAlchemy.
 # Uses a star schema with dim_city and fact_forecast tables.
 # To switch to PostgreSQL change only the DATABASE_URL in etl_pipeline.py.
+#
+# DATA FRESHNESS STRATEGY:
+# Every time load_fact_forecast runs, all existing forecast records
+# are deleted and replaced with fresh data from the API.
+# This ensures the dashboard always shows the most current 7 day forecast.
+# Old data is never kept because weather forecasts change daily
+# and yesterday's forecast is no longer relevant.
+# dim_city records are never deleted as city metadata never changes.
 
 import logging
 from sqlalchemy import (
@@ -63,7 +71,7 @@ class FactForecast(Base):
 # -------------------------------------------------------
 
 def init_db(database_url):
-    """Creates database engine and all tables."""
+    """Creates database engine and all tables if they do not exist."""
     engine = create_engine(database_url, echo=False)
     Base.metadata.create_all(engine)
     logger.info("Database tables created or verified successfully.")
@@ -74,7 +82,7 @@ def load_dim_city(engine, df):
     """
     Loads unique city records into dim_city.
     Returns a dictionary mapping city name to city_id.
-    Skips cities that already exist.
+    Skips cities that already exist since city metadata never changes.
     """
     city_df  = df.drop_duplicates(subset="city")[
         ["city", "region", "languages", "timezone", "latitude", "longitude"]
@@ -109,24 +117,27 @@ def load_dim_city(engine, df):
 def load_fact_forecast(engine, df, city_map):
     """
     Loads daily forecast records into fact_forecast.
-    Skips records that already exist.
+
+    DATA FRESHNESS STRATEGY:
+    All existing forecast records are deleted before inserting new ones.
+    This ensures the dashboard always shows the most current 7 day forecast.
+    Running the pipeline today shows today's forecast.
+    Running tomorrow automatically discards today's data and loads tomorrow's.
     """
+    # Step 1 Delete all existing forecast records for a fresh load
+    with Session(engine) as session:
+        deleted = session.query(FactForecast).delete()
+        session.commit()
+        logger.info(f"  Cleared {deleted} old forecast records from database.")
+
+    # Step 2 Insert all fresh forecast records
     inserted = 0
-    skipped  = 0
 
     with Session(engine) as session:
         for _, row in df.iterrows():
             city_id = city_map.get(row["city"])
             if city_id is None:
                 logger.warning(f"  city_id not found for {row['city']}, skipping row")
-                continue
-
-            existing = session.query(FactForecast).filter_by(
-                city_id=city_id, date=row["date"]
-            ).first()
-
-            if existing:
-                skipped += 1
                 continue
 
             session.add(FactForecast(
@@ -146,5 +157,5 @@ def load_fact_forecast(engine, df, city_map):
 
         session.commit()
 
-    logger.info(f"fact_forecast load complete. Inserted {inserted}, skipped {skipped} duplicates.")
-    return inserted, skipped
+    logger.info(f"fact_forecast load complete. Inserted {inserted} fresh records.")
+    return inserted, 0

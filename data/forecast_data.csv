@@ -1,71 +1,71 @@
 city,latitude,longitude,region,languages,timezone,date,high_c,low_c,feels_like_c,rain_probability,weather_condition,day_length,season,climate_risk,travel_recommendation
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-05-27,18.4,12.9,18.5,100.0,Moderate drizzle,12h 22m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-05-28,20.0,12.2,20.9,100.0,Moderate rain,12h 22m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-05-29,19.0,11.6,19.9,99.0,Moderate showers,12h 23m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-05-30,18.8,11.6,19.5,96.0,Light rain,12h 23m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-05-31,16.3,11.7,16.0,100.0,Heavy drizzle,12h 23m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-01,19.8,10.9,19.6,97.0,Light drizzle,12h 23m,Spring,Heavy rain risk,Not recommended high chance of rain
-Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-02,16.8,12.1,17.1,97.0,Light drizzle,12h 22m,Spring,Heavy rain risk,Not recommended high chance of rain
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-05-27,26.2,20.1,31.1,42.0,Light showers,14h 37m,Spring,No risk,Carry an umbrella
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-05-28,24.1,14.9,25.0,23.0,Light drizzle,14h 38m,Spring,No risk,Highly recommended
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-05-29,26.0,10.4,24.9,0.0,Overcast,14h 40m,Spring,No risk,Highly recommended
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-05-30,21.3,13.9,19.6,0.0,Clear sky,14h 41m,Spring,No risk,Highly recommended
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-05-31,25.1,10.6,26.2,2.0,Overcast,14h 42m,Spring,No risk,Highly recommended
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-01,25.4,15.2,25.0,14.0,Overcast,14h 43m,Spring,No risk,Highly recommended
-Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-02,24.8,12.8,22.5,14.0,Overcast,14h 44m,Spring,No risk,Highly recommended
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-05-28,26.5,15.6,25.5,39.0,Light drizzle,12h 3m,Autumn,No risk,Highly recommended
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-05-29,24.9,15.7,25.8,65.0,Moderate drizzle,12h 3m,Autumn,No risk,Carry an umbrella
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-05-30,25.4,15.9,25.5,88.0,Moderate drizzle,12h 3m,Autumn,Heavy rain risk,Not recommended high chance of rain
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-05-31,23.4,15.7,23.2,90.0,Moderate rain,12h 3m,Autumn,Heavy rain risk,Not recommended high chance of rain
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-01,23.4,15.6,23.1,90.0,Light rain,12h 3m,Autumn,Heavy rain risk,Not recommended high chance of rain
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-02,21.6,15.6,22.0,81.0,Light rain,12h 3m,Autumn,Heavy rain risk,Not recommended high chance of rain
-Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-03,24.0,15.7,23.6,57.0,Moderate drizzle,12h 3m,Autumn,No risk,Carry an umbrella
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-05-28,43.0,30.9,41.4,0.0,Clear sky,13h 32m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-05-29,43.8,32.8,41.9,0.0,Clear sky,13h 32m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-05-30,41.9,29.2,41.0,0.0,Clear sky,13h 33m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-05-31,40.9,28.5,39.3,0.0,Clear sky,13h 33m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-01,44.2,29.5,42.6,0.0,Clear sky,13h 34m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-02,44.5,32.7,42.2,0.0,Clear sky,13h 35m,Spring,Extreme heat warning,Not recommended extreme heat
-Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-03,42.5,32.8,40.1,0.0,Clear sky,13h 36m,Spring,Extreme heat warning,Not recommended extreme heat
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-05-28,40.9,27.6,44.3,73.0,Light showers,13h 48m,Spring,Extreme heat warning,Not recommended high chance of rain
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-05-29,35.2,25.6,38.3,88.0,Light drizzle,13h 48m,Spring,Heavy rain risk,Not recommended high chance of rain
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-05-30,34.3,24.8,37.5,68.0,Moderate drizzle,13h 49m,Spring,No risk,Carry an umbrella
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-05-31,36.0,23.6,39.9,57.0,Light showers,13h 49m,Spring,No risk,Carry an umbrella
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-01,34.3,23.9,39.1,19.0,Light drizzle,13h 51m,Spring,No risk,Recommended
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-02,35.9,26.6,40.2,16.0,Light drizzle,13h 51m,Spring,No risk,Recommended
-New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-03,38.0,27.5,40.8,16.0,Clear sky,13h 52m,Spring,Extreme heat warning,Not recommended extreme heat
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-05-27,26.5,17.4,27.1,1.0,Overcast,16h 9m,Spring,No risk,Highly recommended
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-05-28,30.8,16.2,30.8,31.0,Overcast,16h 11m,Spring,No risk,Highly recommended
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-05-29,26.7,17.5,24.7,14.0,Light drizzle,16h 13m,Spring,No risk,Highly recommended
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-05-30,25.7,16.2,23.8,4.0,Overcast,16h 15m,Spring,No risk,Highly recommended
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-05-31,21.0,16.0,17.9,12.0,Overcast,16h 17m,Spring,No risk,Highly recommended
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-01,20.6,14.9,18.7,47.0,Light drizzle,16h 19m,Spring,No risk,Carry an umbrella
-London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-02,18.6,14.5,15.5,73.0,Light drizzle,16h 21m,Spring,No risk,Not recommended high chance of rain
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-05-28,32.9,19.7,35.2,55.0,Light showers,14h 56m,Spring,No risk,Carry an umbrella
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-05-29,29.6,20.5,31.0,43.0,Light showers,14h 57m,Spring,No risk,Carry an umbrella
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-05-30,30.2,19.2,33.2,3.0,Overcast,14h 58m,Spring,No risk,Highly recommended
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-05-31,30.7,19.9,33.1,0.0,Foggy,15h 0m,Spring,No risk,Highly recommended
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-01,27.6,18.4,28.7,9.0,Overcast,15h 1m,Spring,No risk,Highly recommended
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-02,27.6,20.0,28.8,3.0,Overcast,15h 3m,Spring,No risk,Highly recommended
-Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-03,27.2,18.3,28.2,10.0,Foggy,15h 3m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-05-28,23.5,19.5,27.2,8.0,Overcast,14h 20m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-05-29,29.8,17.3,32.5,39.0,Overcast,14h 21m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-05-30,26.4,14.6,27.8,18.0,Mainly clear,14h 23m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-05-31,30.0,17.8,31.5,10.0,Overcast,14h 23m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-01,32.2,19.2,32.5,2.0,Overcast,14h 24m,Spring,No risk,Recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-02,26.8,19.8,26.2,26.0,Moderate drizzle,14h 26m,Spring,No risk,Highly recommended
-Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-03,20.8,18.1,22.4,57.0,Moderate rain,14h 26m,Spring,No risk,Carry an umbrella
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-05-28,18.4,8.8,16.7,55.0,Overcast,10h 0m,Autumn,No risk,Carry an umbrella
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-05-29,17.0,7.4,15.7,5.0,Overcast,9h 59m,Autumn,No risk,Recommended
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-05-30,13.1,5.9,9.7,2.0,Overcast,9h 58m,Autumn,No risk,Recommended
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-05-31,11.0,6.4,6.2,6.0,Overcast,9h 57m,Autumn,No risk,Recommended
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-01,11.0,3.6,6.7,41.0,Light drizzle,9h 56m,Autumn,No risk,Carry an umbrella
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-02,10.9,6.1,7.2,84.0,Moderate drizzle,9h 55m,Autumn,Heavy rain risk,Not recommended high chance of rain
-Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-03,11.6,8.4,8.6,57.0,Light drizzle,9h 54m,Autumn,No risk,Carry an umbrella
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-05-28,33.1,23.4,38.0,2.0,Partly cloudy,11h 47m,Autumn,No risk,Recommended
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-05-29,33.0,24.6,38.1,25.0,Moderate drizzle,11h 47m,Autumn,No risk,Recommended
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-05-30,33.5,25.0,38.0,68.0,Moderate drizzle,11h 47m,Autumn,No risk,Carry an umbrella
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-05-31,33.0,23.8,37.9,57.0,Light drizzle,11h 47m,Autumn,No risk,Carry an umbrella
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-01,33.0,25.2,37.7,72.0,Moderate drizzle,11h 47m,Autumn,No risk,Not recommended high chance of rain
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-02,32.5,24.8,38.6,59.0,Light drizzle,11h 47m,Autumn,No risk,Carry an umbrella
-Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-03,31.5,25.0,36.8,59.0,Light drizzle,11h 47m,Autumn,No risk,Carry an umbrella
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-03,20.3,12.1,20.0,100.0,Light drizzle,12h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-04,19.2,11.5,19.1,99.0,Light drizzle,12h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-05,17.6,12.6,16.8,91.0,Light drizzle,12h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-06,19.6,11.9,19.1,78.0,Light drizzle,12h 23m,Summer,No risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-07,19.3,11.8,18.3,99.0,Light drizzle,12h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-08,18.7,10.9,19.0,100.0,Moderate drizzle,12h 24m,Summer,Heavy rain risk,Not recommended high chance of rain
+Bogota,4.711,-74.0721,Americas,Spanish,America/Bogota,2026-06-09,21.1,10.8,22.3,87.0,Moderate drizzle,12h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-03,29.0,12.3,28.7,0.0,Clear sky,14h 45m,Summer,No risk,Highly recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-04,32.0,14.3,32.8,0.0,Overcast,14h 46m,Summer,No risk,Highly recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-05,33.0,16.2,33.9,0.0,Overcast,14h 47m,Summer,No risk,Recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-06,35.6,20.7,36.1,9.0,Overcast,14h 47m,Summer,No risk,Recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-07,29.2,19.8,31.9,26.0,Light showers,14h 49m,Summer,No risk,Highly recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-08,25.7,15.8,24.9,17.0,Light drizzle,14h 49m,Summer,No risk,Highly recommended
+Washington D.C.,38.8951,-77.0364,Americas,English,America/New_York,2026-06-09,28.8,13.1,28.7,11.0,Mainly clear,14h 50m,Summer,No risk,Highly recommended
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-04,23.6,15.3,25.5,98.0,Heavy drizzle,12h 3m,Winter,Heavy rain risk,Not recommended high chance of rain
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-05,23.9,13.8,25.2,49.0,Light drizzle,12h 3m,Winter,No risk,Carry an umbrella
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-06,25.4,16.1,26.8,47.0,Light drizzle,12h 3m,Winter,No risk,Carry an umbrella
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-07,26.5,14.8,26.1,47.0,Light drizzle,12h 3m,Winter,No risk,Carry an umbrella
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-08,24.8,16.1,25.8,51.0,Light rain,12h 3m,Winter,No risk,Carry an umbrella
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-09,24.0,14.6,25.3,37.0,Light drizzle,12h 3m,Winter,No risk,Highly recommended
+Nairobi,-1.2921,36.8219,Africa,"English, Swahili",Africa/Nairobi,2026-06-10,25.1,15.8,25.5,41.0,Light drizzle,12h 3m,Winter,No risk,Carry an umbrella
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-04,43.5,31.1,42.7,0.0,Clear sky,13h 36m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-05,42.6,31.3,41.6,0.0,Clear sky,13h 36m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-06,44.3,30.7,42.3,0.0,Clear sky,13h 37m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-07,44.3,32.0,42.9,0.0,Clear sky,13h 37m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-08,43.0,31.4,41.2,0.0,Clear sky,13h 38m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-09,44.9,31.6,42.0,0.0,Clear sky,13h 38m,Summer,Extreme heat warning,Not recommended extreme heat
+Riyadh,24.6877,46.7219,Asia,Arabic,Asia/Riyadh,2026-06-10,45.2,33.5,42.0,0.0,Clear sky,13h 38m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-04,39.8,29.4,43.3,53.0,Light drizzle,13h 52m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-05,39.9,27.5,44.1,49.0,Moderate drizzle,13h 53m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-06,37.0,27.7,40.8,27.0,Moderate drizzle,13h 53m,Summer,No risk,Recommended
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-07,40.3,28.4,42.7,4.0,Clear sky,13h 54m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-08,42.2,30.9,43.9,6.0,Mainly clear,13h 54m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-09,44.0,31.1,45.2,2.0,Mainly clear,13h 56m,Summer,Extreme heat warning,Not recommended extreme heat
+New Delhi,28.6139,77.209,Asia,"English, Hindi, Tamil",Asia/Kolkata,2026-06-10,42.6,31.5,45.1,12.0,Light drizzle,13h 56m,Summer,Extreme heat warning,Not recommended extreme heat
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-03,18.5,13.1,15.1,100.0,Light rain,16h 23m,Summer,Heavy rain risk,Not recommended high chance of rain
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-04,19.0,13.8,15.0,99.0,Light rain,16h 24m,Summer,Heavy rain risk,Not recommended high chance of rain
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-05,16.9,12.5,13.4,10.0,Light drizzle,16h 26m,Summer,No risk,Recommended
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-06,19.3,12.1,16.7,90.0,Moderate drizzle,16h 27m,Summer,Heavy rain risk,Not recommended high chance of rain
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-07,21.5,13.1,19.3,27.0,Overcast,16h 29m,Summer,No risk,Highly recommended
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-08,17.8,13.9,16.1,54.0,Light rain,16h 30m,Summer,No risk,Carry an umbrella
+London,51.5074,-0.1278,Europe,English,Europe/London,2026-06-09,17.4,11.1,13.1,45.0,Light drizzle,16h 31m,Summer,No risk,Carry an umbrella
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-04,29.0,17.8,31.2,0.0,Overcast,15h 4m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-05,24.9,16.3,25.2,18.0,Overcast,15h 6m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-06,26.9,17.5,28.8,0.0,Overcast,15h 6m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-07,30.0,17.8,31.4,0.0,Overcast,15h 7m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-08,31.5,18.0,32.3,2.0,Overcast,15h 9m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-09,30.7,20.1,31.7,3.0,Overcast,15h 9m,Summer,No risk,Highly recommended
+Rome,41.9028,12.4964,Europe,"Italian, Catalan",Europe/Rome,2026-06-10,31.8,17.8,34.3,0.0,Overcast,15h 10m,Summer,No risk,Highly recommended
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-04,22.0,17.0,22.3,4.0,Overcast,14h 27m,Summer,No risk,Highly recommended
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-05,22.3,14.9,22.8,4.0,Partly cloudy,14h 29m,Summer,No risk,Highly recommended
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-06,23.1,14.8,24.6,8.0,Overcast,14h 29m,Summer,No risk,Highly recommended
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-07,23.6,16.6,25.4,72.0,Moderate rain,14h 30m,Summer,No risk,Not recommended high chance of rain
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-08,25.8,18.7,28.1,86.0,Moderate rain,14h 30m,Summer,Heavy rain risk,Not recommended high chance of rain
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-09,24.0,18.2,25.4,41.0,Heavy drizzle,14h 31m,Summer,No risk,Carry an umbrella
+Tokyo,35.6762,139.6503,Asia,Japanese,Asia/Tokyo,2026-06-10,26.2,17.5,29.0,27.0,Light drizzle,14h 31m,Summer,No risk,Highly recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-04,9.6,5.7,4.8,40.0,Light drizzle,9h 53m,Winter,No risk,Carry an umbrella
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-05,13.4,3.2,11.6,13.0,Light drizzle,9h 53m,Winter,No risk,Recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-06,12.6,1.4,10.9,0.0,Overcast,9h 51m,Winter,No risk,Recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-07,12.7,1.7,11.0,0.0,Overcast,9h 51m,Winter,No risk,Recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-08,13.4,2.0,12.6,6.0,Overcast,9h 50m,Winter,No risk,Recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-09,15.1,6.8,14.9,33.0,Light drizzle,9h 50m,Winter,No risk,Recommended
+Canberra,-35.2809,149.13,Oceania,English,Australia/Sydney,2026-06-10,13.1,8.3,12.2,64.0,Light drizzle,9h 49m,Winter,No risk,Carry an umbrella
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-04,32.0,26.0,37.2,88.0,Light showers,11h 47m,Winter,Heavy rain risk,Not recommended high chance of rain
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-05,34.0,25.5,38.1,16.0,Overcast,11h 47m,Winter,No risk,Recommended
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-06,34.8,26.6,38.5,73.0,Light drizzle,11h 46m,Winter,No risk,Not recommended high chance of rain
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-07,34.0,26.1,38.3,50.0,Light drizzle,11h 46m,Winter,No risk,Carry an umbrella
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-08,35.0,25.9,38.8,31.0,Overcast,11h 46m,Winter,No risk,Recommended
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-09,35.0,25.6,38.0,25.0,Overcast,11h 46m,Winter,No risk,Recommended
+Jakarta,-6.2088,106.8456,Asia,Indonesian,Asia/Jakarta,2026-06-10,35.4,26.0,38.0,35.0,Mainly clear,11h 47m,Winter,No risk,Recommended
